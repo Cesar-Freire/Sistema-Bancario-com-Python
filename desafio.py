@@ -1,9 +1,9 @@
 menu = """
 
-[d] Depositar
-[s] Sacar
-[e] Extrato
-[q] Sair
+[1] Depositar
+[2] Sacar
+[3] Extrato
+[s] Sair
 
 => """
 
