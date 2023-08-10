@@ -24,6 +24,8 @@ def depositar (saldo, valor, extrato, /):
 
     return saldo, extrato
 
+def sacar(saldo, valor, extrato, /):
+
 def main():
         LIMITE_SAQUES = 3
         AGENCIA = "0001"
