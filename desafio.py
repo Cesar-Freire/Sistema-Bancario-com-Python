@@ -24,7 +24,7 @@ def depositar (saldo, valor, extrato, /):
 
     return saldo, extrato
 
-def sacar(saldo, valor, extrato, /):
+def sacar(*, saldo, valor, extrato, limite, numero_saques, limite_saques):
 
 def main():
         LIMITE_SAQUES = 3
