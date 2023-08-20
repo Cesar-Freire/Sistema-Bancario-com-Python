@@ -98,7 +98,7 @@ def listar_contas(contas):
             C/C:\t\t{conta['numero_conta']}
             Titular:\t{conta['usuario']['nome']}
             """
-        print("=" * 50)
+        print("=" * 50, "\n")
         print(textwrap.dedent(linha))
 
 def main():
