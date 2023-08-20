@@ -13,20 +13,8 @@ def menu():
     => """
     return input(textwrap.dedent(menu))
 
-def depositar (saldo, valor, extrato, /):
+
     
-    if valor > 0:
-        saldo += valor
-        extrato += f"Deposito:\t R$ {valor:.2f}\n"
-        print("\n=== Depósito realizado com sucesso! ===")
-    else:
-        print("\n@@@ Operação falhou! O valor informado é inválodo. @@@")
-
-    return saldo, extrato
-
-def sacar(*, saldo, valor, extrato, limite, numero_saques, limite_saques):
-
-def main():
         LIMITE_SAQUES = 3
         AGENCIA = "0001"
 
@@ -63,6 +51,4 @@ def main():
                 criar_usuario(usuarios)
 
             elif opcao == "nc":
-                numero_conta = len(contas) + 1
-
-menu()
+                numero_conta = len(contas) +
